@@ -16,6 +16,8 @@
     "ios": "7.0"
   },
   "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "public_header_files": "Pod/Classes/**/*.h",
   "dependencies": {
     "Lib": [
 

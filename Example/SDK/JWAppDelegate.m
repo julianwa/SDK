@@ -7,12 +7,15 @@
 //
 
 #import "JWAppDelegate.h"
+#import <Lib/Lib.h>
+#import <SDK/SDK.h>
 
 @implementation JWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSLog(@"Number: %d", Number());
+    NSLog(@"Letter: %c", Letter());
     return YES;
 }
 

@@ -53,7 +53,9 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-SDK_Example/Lib.framework'
+  install_framework 'Pods-SDK_Example/SDK.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-SDK_Example/Lib.framework'
+  install_framework 'Pods-SDK_Example/SDK.framework'
 fi
