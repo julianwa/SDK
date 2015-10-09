@@ -1,0 +1,20 @@
+PODS:
+  - Lib (0.1.0)
+  - SDK (0.1.0):
+    - Lib
+
+DEPENDENCIES:
+  - Lib (from `../../Lib`)
+  - SDK (from `../`)
+
+EXTERNAL SOURCES:
+  Lib:
+    :path: ../../Lib
+  SDK:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Lib: 9d4eaa1546555592b8cf9f2724d55a47aadbf2ad
+  SDK: 88817d714aa18ced47e2dd001b5e7d1e7e1710b2
+
+COCOAPODS: 0.38.2
